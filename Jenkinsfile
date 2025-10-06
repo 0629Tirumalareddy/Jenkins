@@ -6,6 +6,11 @@ pipeline{
 				echo "This is Stage1"
 				}
 			}
+		stage('Java Program'){
+			steps{
+			bat 'java program.java'
+				}
+			}
 		}
 	}
 
